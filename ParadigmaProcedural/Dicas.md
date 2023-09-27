@@ -8,4 +8,4 @@
 
 ## Formatação de variáveis: <br>
 <br>
-<img src="Img/PrintFormatC.png">
+<img src="PrintFormatC.png">
