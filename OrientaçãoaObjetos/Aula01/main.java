@@ -9,6 +9,8 @@ public class main {
         C.numConta = 10;
         C.cliente = "Pedro paulo";
         C.saldo = 1000;
+        conta.numContas++;
+
         String opcao;
         int opc;
         float valor = 0;
@@ -44,6 +46,9 @@ public class main {
         teclado.nextLine();
         System.out.println("Deseja realizar mais alguma operação(Sim || Não)?");
         opcao = teclado.nextLine();
-    } while(opcao.equalsIgnoreCase("Sim"));
+        } while(opcao.equalsIgnoreCase("Sim"));
+
+
+        teclado.close();
     }
 }

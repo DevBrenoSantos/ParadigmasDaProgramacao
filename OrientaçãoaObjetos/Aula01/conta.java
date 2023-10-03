@@ -5,6 +5,7 @@ class conta {
     int numConta;
     String cliente;
     float saldo;
+    static int numContas = 0;
 
     void depositar (float valor) {
         saldo = saldo + valor;
@@ -19,5 +20,15 @@ class conta {
             return false;
         saldo  = saldo - valor;
         return true;
+    }
+
+    @Override
+    public String toString() {
+        String msg = "";
+        msg += "Agencia: " + agencia + " - ";
+        msg += "Conta: " + numConta + "\n";
+        msg += "Nome: " + cliente + "\n";
+        msg += "Saldo: R$ " + String.format("%.2f", saldo) + "\n";
+        return msg;
     }
 }
