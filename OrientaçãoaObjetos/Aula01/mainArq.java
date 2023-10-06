@@ -1,7 +1,7 @@
 package OrientaçãoaObjetos.Aula01;
 import java.util.Scanner;
 
-public class main {
+public class mainArq {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         conta C = new conta();

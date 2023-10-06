@@ -1,6 +1,6 @@
-package OrientaçãoaObjetos.Aula02;
+package OrientaçãoaObjetos.Aula02.Conta;
 
-public class Main {
+public class testeConta {
 
     public static void main(String[] args) {
 
@@ -11,6 +11,5 @@ public class Main {
         c1.saldo = 1000;
 
         System.out.println(c1.printConta());
-
     }
 }

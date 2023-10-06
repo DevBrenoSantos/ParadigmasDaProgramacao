@@ -1,4 +1,4 @@
-package OrientaçãoaObjetos.Aula02;
+package OrientaçãoaObjetos.Aula02.Conta;
 
 public class Conta {
     public int agencia;
